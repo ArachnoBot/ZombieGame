@@ -16,7 +16,6 @@ import zombieRunUrl from "./assets/ZombieWoman/Run.png"
 import zombieAttackUrl from "./assets/ZombieWoman/Attack2.png"
 import zombieDeadUrl from "./assets/ZombieWoman/Dead.png"
 
-
 let game;
 
 const settings = {
