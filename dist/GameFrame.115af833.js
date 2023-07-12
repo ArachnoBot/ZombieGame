@@ -131,7 +131,7 @@ module.exports = {
   "height": 31,
   "infinite": false,
   "layers": [{
-    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483666, 2147483666, 2147483665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483650, 2147483650, 2147483650, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 2, 2, 2, 2, 2, 2, 2147483658, 2147483658, 2147483658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 41, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 49, 49, 49, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 42, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 42, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483666, 2147483666, 2147483665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483650, 2147483650, 2147483650, 2, 2, 2, 2, 2, 2, 2, 7, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 7, 0, 0, 0, 25, 8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 10, 10, 36, 44, 0, 43, 35, 10, 10, 10, 10, 10, 10, 10, 22, 0, 0, 0, 0, 0, 43, 35, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 10, 36, 44, 0, 0, 0, 43, 35, 10, 10, 10, 10, 10, 10, 13, 23, 0, 0, 29, 0, 0, 43, 35, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 36, 44, 0, 0, 0, 0, 0, 43, 35, 10, 10, 10, 10, 10, 10, 39, 0, 0, 0, 0, 0, 0, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 22, 49, 49, 49, 49, 49, 49, 49, 9, 10, 10, 10, 10, 10, 10, 13, 31, 0, 0, 0, 0, 0, 43, 35, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 23, 55, 55, 55, 55, 55, 55, 55, 21, 10, 10, 10, 10, 10, 10, 10, 10, 23, 0, 0, 0, 0, 0, 43, 18, 18, 18, 18, 6, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 55, 55, 55, 55, 24, 10, 10, 10, 10, 10, 10, 10, 10, 10, 22, 49, 49, 49, 49, 49, 49, 49, 49, 49, 17, 18, 18, 18, 18, 18, 18, 18, 18, 6, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 23, 55, 55, 55, 55, 55, 55, 55, 21, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 30, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 55, 54, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 13, 30, 55, 55, 55, 55, 55, 55, 55, 21, 10, 10, 10, 10, 10, 10, 10, 10, 10, 13, 23, 40, 55, 55, 55, 55, 55, 55, 55, 55, 55, 50, 51, 52, 55, 55, 55, 62, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 55, 55, 55, 55, 29, 14, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 13, 30, 55, 55, 55, 55, 55, 55, 55, 55, 53, 60, 53, 55, 55, 55, 54, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 40, 14, 39, 48, 31, 39, 48, 31, 14, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 23, 30, 55, 55, 55, 55, 63, 64, 55, 57, 58, 52, 55, 55, 55, 62, 21, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 13, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 31, 40, 31, 48, 31, 30, 31, 30, 31, 48, 31, 30, 31, 48, 14, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
     "height": 31,
     "id": 5,
     "name": "layer2",
@@ -142,7 +142,7 @@ module.exports = {
     "x": 0,
     "y": 0
   }, {
-    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 2, 2, 2, 2, 2, 2, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 10, 13, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 41, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 49, 49, 49, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 10, 10, 10, 10, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 10, 10, 10, 10, 10, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 14, 10, 10, 10, 10, 10, 10, 10, 10, 13, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 14, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 49, 49, 49, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
     "height": 31,
     "id": 1,
     "name": "layer1",
@@ -197,9 +197,7 @@ module.exports = "/Run.c2b93eef.png";
 module.exports = "/Attack2.93e4d0aa.png";
 },{}],"assets/ZombieWoman/Dead.png":[function(require,module,exports) {
 module.exports = "/Dead.4aec24f1.png";
-},{}],"assets/Background/Night/2.png":[function(require,module,exports) {
-module.exports = "/2.932723b4.png";
-},{}],"Level2.js":[function(require,module,exports) {
+},{}],"Level1.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -209,7 +207,7 @@ exports.default = void 0;
 var _Tileset = _interopRequireDefault(require("./assets/Tiles/Tileset.png"));
 var _Bullet = _interopRequireDefault(require("./assets/Soldier/Bullet.png"));
 var _ = _interopRequireDefault(require("./assets/Background/Night/1.png"));
-var _2 = _interopRequireDefault(require("./assets/Background/Night/2.png"));
+var _2 = _interopRequireDefault(require("./assets/Background/Night/4.png"));
 var _map = _interopRequireDefault(require("./assets/TileStuff/map.json"));
 var _Idle = _interopRequireDefault(require("./assets/Soldier/Idle.png"));
 var _Walk = _interopRequireDefault(require("./assets/Soldier/Walk.png"));
@@ -239,18 +237,18 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 var settings;
 var config;
-var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
-  _inherits(Level2, _Phaser$Scene);
-  var _super = _createSuper(Level2);
-  function Level2() {
-    _classCallCheck(this, Level2);
-    return _super.call(this, "Level2");
+var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
+  _inherits(Level1, _Phaser$Scene);
+  var _super = _createSuper(Level1);
+  function Level1() {
+    _classCallCheck(this, Level1);
+    return _super.call(this, "Level1");
   }
-  _createClass(Level2, [{
+  _createClass(Level1, [{
     key: "preload",
     value: function preload() {
       this.load.image("background1", _.default);
-      this.load.image("background2", _2.default);
+      this.bg = this.load.image("background2", _2.default);
       this.load.image("tilesImage", _Tileset.default);
       this.load.image("bullet", _Bullet.default);
       this.load.tilemapTiledJSON("map", _map.default);
@@ -279,11 +277,11 @@ var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
       var _this = this;
       config = data.config;
       settings = data.settings;
-      console.log(config);
-      console.log(settings);
+      console.log("Level 1");
       var bgWidth = 576 * 2;
       var bgHeight = 324 * 2 - 70;
-      this.physics.world.setBounds(config.width, config.height);
+      this.physics.world.setBounds(0, 0, config.width, config.height);
+      this.physics.world.setBoundsCollision(true, true, false, false);
       this.add.image(config.width / 2, config.height / 2, "background1").setScale(3.1);
       this.add.image(bgWidth, bgHeight, "background2").setScale(2);
       this.add.image(0, bgHeight, "background2").setScale(2);
@@ -293,17 +291,13 @@ var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
         tileHeight: 32
       });
       this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
-      this.layer = this.map.createLayer("layer2", "tiles", 0, 0);
+      this.layer = this.map.createLayer("layer1", "tiles", 0, 0);
       this.layer.setCollisionBetween(1, 48);
-      this.soldier = this.physics.add.sprite(this.getTileX(0), this.getTileY(24), "soldierIdleSheet");
-      this.soldier.body.gravity.y = settings.gravity;
-      this.soldier.setSize(32, 63);
-      this.soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
-      this.soldierDirection = 1;
-      this.soldierLocation = [0, 0];
-      this.soldierDead = false;
-      this.soldierDeadTimer = 0;
-      this.soldierShotTimer = 0;
+      this.add.text(30, 740, " left & right arrow: move\n up arrow: jump\n down arrow: shoot\n shift + move: run", {
+        fontSize: 16,
+        color: "#BBBBBB"
+      });
+      this.soldier = this.createSoldier(4, 28);
       this.bullets = this.physics.add.group({
         classType: Bullet,
         runChildUpdate: true
@@ -432,14 +426,37 @@ var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
     key: "checkSoldierLocation",
     value: function checkSoldierLocation() {
       var string = "7,19 9,19 8,19";
-      if (string.includes(this.soldierLocation.toString()) && !this.soldierDead) {}
+      if (this.soldierLocation.toString() == "53,24") {
+        this.scene.start("Level2", {
+          config: config,
+          settings: settings
+        });
+      }
+    }
+  }, {
+    key: "createSoldier",
+    value: function createSoldier(tileX, tileY) {
+      var x = tileX * 32 + 21;
+      var y = tileY * 32 - 63;
+      var soldier = this.physics.add.sprite(x, y, "soldierIdleSheet");
+      soldier.body.gravity.y = settings.gravity;
+      soldier.setSize(settings.soldierSizeX, settings.soldierSizeY);
+      soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+      soldier.setCollideWorldBounds(true);
+      this.soldierDirection = 1;
+      this.soldierLocation = [0, 0];
+      this.soldierDead = false;
+      this.soldierDeadTimer = 0;
+      this.soldierShotTimer = 0;
+      return soldier;
     }
   }, {
     key: "createZombie",
-    value: function createZombie(x, y) {
+    value: function createZombie(tileX, tileY) {
+      var x = tileX * 32 + 19;
+      var y = tileY * 32 - 64;
       var zombie = this.zombies.get(x, y);
-      zombie.setSize(20, 64);
-      zombie.setScale(1, 1);
+      zombie.setSize(settings.zombieSizeX, settings.zombieSizeY);
       zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
       zombie.body.gravity.y = settings.gravity;
       this.physics.add.collider(zombie, this.layer);
@@ -571,20 +588,10 @@ var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
         frameRate: 10
       });
     }
-  }, {
-    key: "getTileY",
-    value: function getTileY(tileY) {
-      return (tileY - 3) * 32;
-    }
-  }, {
-    key: "getTileX",
-    value: function getTileX(tileX) {
-      return tileX * 32;
-    }
   }]);
-  return Level2;
+  return Level1;
 }(Phaser.Scene);
-exports.default = Level2;
+exports.default = Level1;
 var Zombie = /*#__PURE__*/function (_Phaser$Physics$Arcad) {
   _inherits(Zombie, _Phaser$Physics$Arcad);
   var _super2 = _createSuper(Zombie);
@@ -703,13 +710,19 @@ var Bullet = /*#__PURE__*/function (_Phaser$Physics$Arcad2) {
   }]);
   return Bullet;
 }(Phaser.Physics.Arcade.Sprite);
-},{"./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/2.png":"assets/Background/Night/2.png","./assets/TileStuff/map.json":"assets/TileStuff/map.json","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png"}],"GameFrame.js":[function(require,module,exports) {
+},{"./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/4.png":"assets/Background/Night/4.png","./assets/TileStuff/map.json":"assets/TileStuff/map.json","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png"}],"assets/Background/Night/2.png":[function(require,module,exports) {
+module.exports = "/2.932723b4.png";
+},{}],"Level2.js":[function(require,module,exports) {
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 var _Tileset = _interopRequireDefault(require("./assets/Tiles/Tileset.png"));
 var _Bullet = _interopRequireDefault(require("./assets/Soldier/Bullet.png"));
 var _ = _interopRequireDefault(require("./assets/Background/Night/1.png"));
-var _2 = _interopRequireDefault(require("./assets/Background/Night/4.png"));
+var _2 = _interopRequireDefault(require("./assets/Background/Night/2.png"));
 var _map = _interopRequireDefault(require("./assets/TileStuff/map.json"));
 var _Idle = _interopRequireDefault(require("./assets/Soldier/Idle.png"));
 var _Walk = _interopRequireDefault(require("./assets/Soldier/Walk.png"));
@@ -721,7 +734,6 @@ var _Walk2 = _interopRequireDefault(require("./assets/ZombieWoman/Walk.png"));
 var _Run2 = _interopRequireDefault(require("./assets/ZombieWoman/Run.png"));
 var _Attack = _interopRequireDefault(require("./assets/ZombieWoman/Attack2.png"));
 var _Dead2 = _interopRequireDefault(require("./assets/ZombieWoman/Dead.png"));
-var _Level = _interopRequireDefault(require("./Level2"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _get() { if (typeof Reflect !== "undefined" && Reflect.get) { _get = Reflect.get.bind(); } else { _get = function _get(target, property, receiver) { var base = _superPropBase(target, property); if (!base) return; var desc = Object.getOwnPropertyDescriptor(base, property); if (desc.get) { return desc.get.call(arguments.length < 3 ? target : receiver); } return desc.value; }; } return _get.apply(this, arguments); }
@@ -738,58 +750,20 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-var game;
-var settings = {
-  gravity: 700,
-  soldierWalkSpeed: 100,
-  soldierRunSpeed: 330,
-  soldierOffsetY: 64,
-  soldierOffsetXRight: 43,
-  soldierOffsetXLeft: 75,
-  zombieWalkSpeed: 80,
-  zombieRunSpeed: 350,
-  zombieOffsetY: 32,
-  zombieOffsetXRight: 35,
-  zombieOffsetXLeft: 55,
-  bulletSpeed: 1.2,
-  restartTime: 1000
-};
-window.onload = function () {
-  var gameConfig = {
-    type: Phaser.AUTO,
-    scale: {
-      mode: Phaser.Scale.FIT,
-      autoCenter: Phaser.Scale.CENTER_BOTH,
-      width: 1728,
-      height: 992
-    },
-    pixelArt: true,
-    physics: {
-      default: "arcade",
-      arcade: {
-        debug: true,
-        gravity: {
-          y: 0
-        }
-      }
-    },
-    scene: [Level1, _Level.default]
-  };
-  game = new Phaser.Game(gameConfig);
-  window.focus();
-};
-var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
-  _inherits(Level1, _Phaser$Scene);
-  var _super = _createSuper(Level1);
-  function Level1() {
-    _classCallCheck(this, Level1);
-    return _super.call(this, "Level1");
+var settings;
+var config;
+var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
+  _inherits(Level2, _Phaser$Scene);
+  var _super = _createSuper(Level2);
+  function Level2() {
+    _classCallCheck(this, Level2);
+    return _super.call(this, "Level2");
   }
-  _createClass(Level1, [{
+  _createClass(Level2, [{
     key: "preload",
     value: function preload() {
       this.load.image("background1", _.default);
-      this.bg = this.load.image("background2", _2.default);
+      this.load.image("background2", _2.default);
       this.load.image("tilesImage", _Tileset.default);
       this.load.image("bullet", _Bullet.default);
       this.load.tilemapTiledJSON("map", _map.default);
@@ -814,40 +788,26 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
     }
   }, {
     key: "create",
-    value: function create() {
+    value: function create(data) {
       var _this = this;
-      this.data = {
-        settings: settings,
-        config: game.config
-      };
-      console.log("Level 1");
+      config = data.config;
+      settings = data.settings;
       var bgWidth = 576 * 2;
-      var bgHeight = 324 * 2 - 70;
-      this.physics.world.setBounds(game.config.width, game.config.height);
-      this.add.image(game.config.width / 2, game.config.height / 2, "background1").setScale(3.1);
-      this.add.image(bgWidth, bgHeight, "background2").setScale(2);
-      this.add.image(0, bgHeight, "background2").setScale(2);
+      var bgHeight = -2;
+      this.physics.world.setBounds(0, 0, config.width, config.height);
+      this.physics.world.setBoundsCollision(true, true, false, false);
+      this.add.image(config.width / 2, -80, "background1").setScale(3.1);
+      this.add.image(bgWidth + 150, bgHeight, "background2").setScale(2);
+      this.add.image(0 + 150, bgHeight, "background2").setScale(2);
       this.map = this.make.tilemap({
         key: "map",
         tileWidth: 32,
         tileHeight: 32
       });
       this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
-      this.layer = this.map.createLayer("layer1", "tiles", 0, 0);
+      this.layer = this.map.createLayer("layer2", "tiles", 0, 0);
       this.layer.setCollisionBetween(1, 48);
-      this.add.text(this.getTileX(1), this.getTileY(26), " left & right arrow: move\n up arrow: jump\n down arrow: shoot\n shift + move: run", {
-        fontSize: 16,
-        color: "#BBBBBB"
-      });
-      this.soldier = this.physics.add.sprite(this.getTileX(4), this.getTileY(28), "soldierIdleSheet");
-      this.soldier.body.gravity.y = settings.gravity;
-      this.soldier.setSize(32, 63);
-      this.soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
-      this.soldierDirection = 1;
-      this.soldierLocation = [0, 0];
-      this.soldierDead = false;
-      this.soldierDeadTimer = 0;
-      this.soldierShotTimer = 0;
+      this.soldier = this.createSoldier(0, 10);
       this.bullets = this.physics.add.group({
         classType: Bullet,
         runChildUpdate: true
@@ -856,7 +816,6 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
         classType: Zombie,
         runChildUpdate: true
       });
-      this.createZombie(this.getTileX(9), this.getTileY(28));
       this.physics.add.overlap(this.bullets, this.layer, function (bullet, tile) {
         bullet.destroy();
       }, function (bullet, tile) {
@@ -887,7 +846,7 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
       });
       this.cursors = this.input.keyboard.createCursorKeys();
       this.shift = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SHIFT);
-      this.cameras.main.setBounds(0, 0, game.config.width, game.config.height);
+      this.cameras.main.setBounds(0, 0, config.width, config.height);
       this.cameras.main.setZoom(3);
       this.cameras.main.startFollow(this.soldier, true, 0.05, 0.05);
       this.createSoldierAnimations();
@@ -895,11 +854,23 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
       this.soldier.on(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "soldierAttack", function () {
         _this.soldier.anims.play("soldierIdle", true);
       });
+      this.zombieList1 = [];
+      this.zombieList1.push(this.createZombie(8, 20, -1));
+      this.zombieList1.push(this.createZombie(8, 20, -1));
+      this.zombieList1.push(this.createZombie(8, 20, -1));
+      this.zombieList1.push(this.createZombie(9, 20, -1));
+      this.zombieList1.push(this.createZombie(10, 20, 1));
+      this.zombieList1.push(this.createZombie(12, 20, -1));
+      this.zombieList1.push(this.createZombie(13, 20, 1));
+      this.zombieList1.push(this.createZombie(14, 20, -1));
+      this.zombieList2 = [];
+      this.zombieList2.push(this.createZombie(42, 10, -1));
+      this.zombieList2.push(this.createZombie(44, 10, 1));
     }
   }, {
     key: "update",
     value: function update(time, delta) {
-      if (this.soldier.y > game.config.height || this.soldier.y < 0) {
+      if (this.soldier.y > config.height || this.soldier.y < 0) {
         this.soldierDead = true;
       }
       if (!this.soldierDead) {
@@ -976,18 +947,49 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
   }, {
     key: "checkSoldierLocation",
     value: function checkSoldierLocation() {
-      var string = "7,19 9,19 8,19";
-      if (this.soldierLocation.toString() == "18,27") {
-        this.scene.start("Level2", this.data);
+      var _this2 = this;
+      if (this.soldierLocation.toString() == "11,20" && !this.soldierDead) {
+        this.zombieList1.forEach(function (zombie) {
+          zombie.attack(_this2.soldier);
+        });
+      }
+      if (this.soldierLocation.toString() == "34,10" && !this.soldierDead) {
+        this.zombieList2.forEach(function (zombie) {
+          zombie.attack(_this2.soldier);
+        });
       }
     }
   }, {
+    key: "createSoldier",
+    value: function createSoldier(tileX, tileY) {
+      var x = tileX * 32 + 21;
+      var y = tileY * 32 - 63;
+      var soldier = this.physics.add.sprite(x, y, "soldierIdleSheet");
+      soldier.body.gravity.y = settings.gravity;
+      soldier.setSize(settings.soldierSizeX, settings.soldierSizeY);
+      soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+      this.soldierDirection = 1;
+      this.soldierLocation = [0, 0];
+      this.soldierDead = false;
+      this.soldierDeadTimer = 0;
+      this.soldierShotTimer = 0;
+      return soldier;
+    }
+  }, {
     key: "createZombie",
-    value: function createZombie(x, y) {
+    value: function createZombie(tileX, tileY, direction) {
+      var x = tileX * 32 + 19;
+      var y = tileY * 32 - 64;
       var zombie = this.zombies.get(x, y);
-      zombie.setSize(20, 64);
-      zombie.setScale(1, 1);
-      zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
+      zombie.setSize(settings.zombieSizeX, settings.zombieSizeY);
+      if (direction == -1) {
+        zombie.setOffset(settings.zombieOffsetXLeft, settings.zombieOffsetY);
+        zombie.setScale(-1, 1);
+        zombie.direction = -1;
+      } else {
+        zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
+        zombie.direction = 1;
+      }
       zombie.body.gravity.y = settings.gravity;
       this.physics.add.collider(zombie, this.layer);
       return zombie;
@@ -1118,42 +1120,31 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
         frameRate: 10
       });
     }
-  }, {
-    key: "getTileY",
-    value: function getTileY(tileY) {
-      return (tileY - 3) * 32;
-    }
-  }, {
-    key: "getTileX",
-    value: function getTileX(tileX) {
-      return tileX * 32;
-    }
   }]);
-  return Level1;
+  return Level2;
 }(Phaser.Scene);
+exports.default = Level2;
 var Zombie = /*#__PURE__*/function (_Phaser$Physics$Arcad) {
   _inherits(Zombie, _Phaser$Physics$Arcad);
   var _super2 = _createSuper(Zombie);
   function Zombie(scene, x, y) {
-    var _this2;
+    var _this3;
     _classCallCheck(this, Zombie);
-    _this2 = _super2.call(this, scene, x, y, "zombieIdleSheet");
-    _this2.direction = 1;
-    _this2.dead = false;
-    _this2.attacking = false;
-    return _this2;
+    _this3 = _super2.call(this, scene, x, y, "zombieIdleSheet");
+    _this3.direction = 1;
+    _this3.dead = false;
+    _this3.target = null;
+    return _this3;
   }
   _createClass(Zombie, [{
     key: "attack",
     value: function attack(target) {
       this.target = target;
-      this.targetX = target.body.position.x;
-      this.attacking = true;
     }
   }, {
     key: "die",
     value: function die() {
-      var _this3 = this;
+      var _this4 = this;
       this.dead = true;
       this.body.velocity.x = 0;
       if (this.direction == 1) {
@@ -1165,18 +1156,22 @@ var Zombie = /*#__PURE__*/function (_Phaser$Physics$Arcad) {
       }
       this.anims.play("zombieDead", true);
       this.once(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "zombieDead", function () {
-        _this3.setActive(0);
+        _this4.setActive(0);
       });
     }
   }, {
     key: "update",
     value: function update() {
-      if (this.attacking && !this.dead) {
-        if (Phaser.Math.Difference(this.targetX, this.body.position.x) < 1) {
+      if (this.target != null && !this.dead) {
+        var bodyX = this.body.position.x;
+        var bodyY = this.body.position.y;
+        var targetX = this.target.body.position.x;
+        var targetY = this.target.body.position.y;
+        if (Phaser.Math.Difference(targetX, bodyX) < 1) {
           this.body.velocity.x = 0;
-        } else if (this.targetX < this.body.position.x) {
+        } else if (targetX < bodyX) {
           this.body.velocity.x = -settings.zombieWalkSpeed;
-        } else if (this.targetX > this.body.position.x) {
+        } else if (targetX > bodyX) {
           this.body.velocity.x = settings.zombieWalkSpeed;
         }
         if ((this.body.blocked.left || this.body.blocked.right) && this.body.velocity.y == 0) {
@@ -1218,11 +1213,11 @@ var Bullet = /*#__PURE__*/function (_Phaser$Physics$Arcad2) {
   _inherits(Bullet, _Phaser$Physics$Arcad2);
   var _super3 = _createSuper(Bullet);
   function Bullet(scene) {
-    var _this4;
+    var _this5;
     _classCallCheck(this, Bullet);
-    _this4 = _super3.call(this, scene, 0, 0, "bullet");
-    _this4.hasKilled = false;
-    return _this4;
+    _this5 = _super3.call(this, scene, 0, 0, "bullet");
+    _this5.hasKilled = false;
+    return _this5;
   }
   _createClass(Bullet, [{
     key: "fire",
@@ -1249,7 +1244,90 @@ var Bullet = /*#__PURE__*/function (_Phaser$Physics$Arcad2) {
   }]);
   return Bullet;
 }(Phaser.Physics.Arcade.Sprite);
-},{"./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/4.png":"assets/Background/Night/4.png","./assets/TileStuff/map.json":"assets/TileStuff/map.json","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png","./Level2":"Level2.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/2.png":"assets/Background/Night/2.png","./assets/TileStuff/map.json":"assets/TileStuff/map.json","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png"}],"GameFrame.js":[function(require,module,exports) {
+"use strict";
+
+var _Level = _interopRequireDefault(require("./Level1"));
+var _Level2 = _interopRequireDefault(require("./Level2"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var game;
+var settings = {
+  gravity: 700,
+  soldierWalkSpeed: 100,
+  soldierRunSpeed: 330,
+  soldierSizeX: 28,
+  soldierSizeY: 63,
+  soldierOffsetY: 64,
+  soldierOffsetXRight: 45,
+  soldierOffsetXLeft: 73,
+  zombieWalkSpeed: 100,
+  zombieRunSpeed: 350,
+  zombieSizeX: 20,
+  zombieSizeY: 64,
+  zombieOffsetY: 32,
+  zombieOffsetXRight: 35,
+  zombieOffsetXLeft: 55,
+  bulletSpeed: 1.2,
+  restartTime: 1000
+};
+window.onload = function () {
+  var gameConfig = {
+    type: Phaser.AUTO,
+    scale: {
+      mode: Phaser.Scale.FIT,
+      autoCenter: Phaser.Scale.CENTER_BOTH,
+      width: 1728,
+      height: 992
+    },
+    pixelArt: true,
+    backgroundColor: "#808080",
+    physics: {
+      default: "arcade",
+      arcade: {
+        debug: true,
+        gravity: {
+          y: 0
+        }
+      }
+    },
+    scene: [Bootloader, _Level.default, _Level2.default]
+  };
+  game = new Phaser.Game(gameConfig);
+  window.focus();
+};
+var Bootloader = /*#__PURE__*/function (_Phaser$Scene) {
+  _inherits(Bootloader, _Phaser$Scene);
+  var _super = _createSuper(Bootloader);
+  function Bootloader() {
+    _classCallCheck(this, Bootloader);
+    return _super.call(this, "Bootloader");
+  }
+  _createClass(Bootloader, [{
+    key: "create",
+    value: function create() {
+      this.data = {
+        config: game.config,
+        settings: settings
+      };
+      this.scene.start("Level2", this.data);
+    }
+  }]);
+  return Bootloader;
+}(Phaser.Scene);
+},{"./Level1":"Level1.js","./Level2":"Level2.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1274,7 +1352,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63185" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59916" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

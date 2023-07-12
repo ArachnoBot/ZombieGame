@@ -2,7 +2,7 @@ import tilesImageUrl from "./assets/Tiles/Tileset.png"
 import bulletUrl from "./assets/Soldier/Bullet.png"
 
 import background1Url from "./assets/Background/Night/1.png"
-import background2Url from "./assets/Background/Night/2.png"
+import background4Url from "./assets/Background/Night/4.png"
 import mapUrl from "./assets/TileStuff/map.json"
 
 import soldierIdleUrl from "./assets/Soldier/Idle.png"
@@ -20,14 +20,14 @@ import zombieDeadUrl from "./assets/ZombieWoman/Dead.png"
 let settings;
 let config;
 
-export default class Level2 extends Phaser.Scene {
+export default class Level1 extends Phaser.Scene {
     constructor() {
-        super("Level2");
+        super("Level1");
     }
 
     preload() {
         this.load.image("background1", background1Url);
-        this.load.image("background2", background2Url);
+        this.bg = this.load.image("background2", background4Url);
         this.load.image("tilesImage", tilesImageUrl);
         this.load.image("bullet", bulletUrl);
         this.load.tilemapTiledJSON("map", mapUrl);
@@ -51,24 +51,30 @@ export default class Level2 extends Phaser.Scene {
     create(data) {
         config = data.config;
         settings = data.settings;
+
+        console.log("Level 1");
         const bgWidth = 576*2;
-        const bgHeight = -2;
+        const bgHeight = 324*2 - 70;
 
         this.physics.world.setBounds(0, 0, config.width, config.height);
         this.physics.world.setBoundsCollision(true, true, false, false);
 
-        this.add.image(config.width / 2, -80, "background1").setScale(3.1);
+        this.add.image(config.width / 2, 
+        config.height / 2, "background1").setScale(3.1);
 
-        this.add.image(bgWidth + 150, bgHeight, "background2").setScale(2);
-        this.add.image(0 + 150, bgHeight, "background2").setScale(2);
+        this.add.image(bgWidth, bgHeight, "background2").setScale(2);
+        this.add.image(0, bgHeight, "background2").setScale(2);
         
         this.map = this.make.tilemap({key: "map", tileWidth: 32, tileHeight: 32});
         this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
-        this.layer = this.map.createLayer("layer2", "tiles", 0, 0);
+        this.layer = this.map.createLayer("layer1", "tiles", 0, 0);
         this.layer.setCollisionBetween(1, 48);
+        this.add.text(30, 740, 
+        " left & right arrow: move\n up arrow: jump\n down arrow: shoot\n shift + move: run",
+        { fontSize: 16, color: "#BBBBBB"});
 
-        this.soldier = this.createSoldier(0, 10);
-
+        this.soldier = this.createSoldier(4, 28);
+        
         this.bullets = this.physics.add.group({
             classType: Bullet,
             runChildUpdate: true
@@ -141,20 +147,6 @@ export default class Level2 extends Phaser.Scene {
         this.soldier.on(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "soldierAttack", () => {
             this.soldier.anims.play("soldierIdle", true);
         })
-
-        this.zombieList1 = [];
-        this.zombieList1.push(this.createZombie(8, 20, -1));
-        this.zombieList1.push(this.createZombie(8, 20, -1));
-        this.zombieList1.push(this.createZombie(8, 20, -1));
-        this.zombieList1.push(this.createZombie(9, 20, -1));
-        this.zombieList1.push(this.createZombie(10, 20, 1));
-        this.zombieList1.push(this.createZombie(12, 20, -1));
-        this.zombieList1.push(this.createZombie(13, 20, 1));
-        this.zombieList1.push(this.createZombie(14, 20,-1));
-
-        this.zombieList2 = [];
-        this.zombieList2.push(this.createZombie(42, 10, -1));
-        this.zombieList2.push(this.createZombie(44, 10, 1));
     }
 
     update(time, delta) {
@@ -247,16 +239,9 @@ export default class Level2 extends Phaser.Scene {
     }
 
     checkSoldierLocation() {
-        if (this.soldierLocation.toString() == "11,20" && !this.soldierDead) {
-            this.zombieList1.forEach(zombie => {
-                zombie.attack(this.soldier);
-            });
-        }
-
-        if (this.soldierLocation.toString() == "34,10" && !this.soldierDead) {
-            this.zombieList2.forEach(zombie => {
-                zombie.attack(this.soldier);
-            });
+        const string = "7,19 9,19 8,19"
+        if (this.soldierLocation.toString() == "53,24") {
+            this.scene.start("Level2", {config, settings});
         }
     }
 
@@ -267,6 +252,7 @@ export default class Level2 extends Phaser.Scene {
         soldier.body.gravity.y = settings.gravity;
         soldier.setSize(settings.soldierSizeX, settings.soldierSizeY);
         soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+        soldier.setCollideWorldBounds(true);
         this.soldierDirection = 1;
         this.soldierLocation = [0, 0];
         this.soldierDead = false;
@@ -275,19 +261,12 @@ export default class Level2 extends Phaser.Scene {
         return soldier
     }
 
-    createZombie(tileX, tileY, direction) {
+    createZombie(tileX, tileY) {
         const x = tileX*32 + 19
         const y = tileY*32 - 64
         const zombie = this.zombies.get(x, y);
         zombie.setSize(settings.zombieSizeX, settings.zombieSizeY);
-        if (direction == -1) {
-            zombie.setOffset(settings.zombieOffsetXLeft, settings.zombieOffsetY);
-            zombie.setScale(-1, 1)
-            zombie.direction = -1;
-        } else {
-            zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
-            zombie.direction = 1;
-        }
+        zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
         zombie.body.gravity.y = settings.gravity;
         this.physics.add.collider(zombie, this.layer);
         return zombie;
@@ -376,17 +355,18 @@ export default class Level2 extends Phaser.Scene {
     }
 }
 
-class Zombie extends Phaser.Physics.Arcade.Sprite
-{
+class Zombie extends Phaser.Physics.Arcade.Sprite {
     constructor (scene, x, y){
         super(scene, x, y, "zombieIdleSheet");
         this.direction = 1;
         this.dead = false;
-        this.target = null;
+        this.attacking = false;
     }
 
     attack(target) {
         this.target = target;
+        this.targetX = target.body.position.x;
+        this.attacking = true;
     }
 
     die() {
@@ -406,20 +386,15 @@ class Zombie extends Phaser.Physics.Arcade.Sprite
     }
 
     update() {
-        if (this.target != null && !this.dead) {
-            const bodyX = this.body.position.x;
-            const bodyY = this.body.position.y;
-            const targetX = this.target.body.position.x;
-            const targetY = this.target.body.position.y;
-
-            if (Phaser.Math.Difference(targetX, bodyX) < 1) {
+        if (this.attacking && !this.dead) {
+            if (Phaser.Math.Difference(this.targetX, this.body.position.x) < 1) {
                 this.body.velocity.x = 0;
 
             }
-            else if (targetX < bodyX) {
+            else if (this.targetX < this.body.position.x) {
                 this.body.velocity.x = -settings.zombieWalkSpeed;
             }
-            else if (targetX > bodyX) {
+            else if (this.targetX > this.body.position.x) {
                 this.body.velocity.x = settings.zombieWalkSpeed;
             }
     
@@ -463,8 +438,7 @@ class Zombie extends Phaser.Physics.Arcade.Sprite
     }
 }
 
-class Bullet extends Phaser.Physics.Arcade.Sprite
-{
+class Bullet extends Phaser.Physics.Arcade.Sprite {
     constructor (scene){
         super(scene, 0, 0, "bullet");
         this.hasKilled = false;
