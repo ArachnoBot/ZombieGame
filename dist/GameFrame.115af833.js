@@ -117,30 +117,43 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"assets/Background/Night/1.png":[function(require,module,exports) {
-module.exports = "/1.c8e22775.png";
-},{}],"assets/Background/Night/2.png":[function(require,module,exports) {
-module.exports = "/2.932723b4.png";
-},{}],"assets/Tiles/Tileset.png":[function(require,module,exports) {
+})({"assets/Tiles/Tileset.png":[function(require,module,exports) {
 module.exports = "/Tileset.8f01998d.png";
-},{}],"assets/TileStuff/map1.json":[function(require,module,exports) {
+},{}],"assets/Soldier/Bullet.png":[function(require,module,exports) {
+module.exports = "/Bullet.f7380256.png";
+},{}],"assets/Background/Night/1.png":[function(require,module,exports) {
+module.exports = "/1.c8e22775.png";
+},{}],"assets/Background/Night/4.png":[function(require,module,exports) {
+module.exports = "/4.261014ac.png";
+},{}],"assets/TileStuff/map.json":[function(require,module,exports) {
 module.exports = {
   "compressionlevel": -1,
-  "height": 21,
+  "height": 31,
   "infinite": false,
   "layers": [{
-    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 1, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 9, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 42, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 9, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 42, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 9, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 42, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 9, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 42, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 10, 10, 10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
-    "height": 21,
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483658, 2147483658, 2147483657, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 2147483666, 2147483666, 2147483665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483704, 2147483704, 2147483704, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 2147483650, 2147483650, 2147483650, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 2, 2, 2, 2, 2, 2, 2147483658, 2147483658, 2147483658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 41, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2147483658, 2147483658, 2147483658, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 49, 49, 49, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "height": 31,
+    "id": 5,
+    "name": "layer2",
+    "opacity": 1,
+    "type": "tilelayer",
+    "visible": true,
+    "width": 54,
+    "x": 0,
+    "y": 0
+  }, {
+    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 56, 56, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 2, 2, 2, 2, 2, 2, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 41, 10, 10, 10, 10, 10, 10, 10, 10, 13, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 41, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 55, 55, 55, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 49, 49, 49, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "height": 31,
     "id": 1,
     "name": "layer1",
     "opacity": 1,
     "type": "tilelayer",
-    "visible": true,
-    "width": 36,
+    "visible": false,
+    "width": 54,
     "x": 0,
     "y": 0
   }],
-  "nextlayerid": 2,
+  "nextlayerid": 6,
   "nextobjectid": 1,
   "orientation": "orthogonal",
   "renderorder": "right-down",
@@ -153,7 +166,7 @@ module.exports = {
     "imageheight": 256,
     "imagewidth": 256,
     "margin": 0,
-    "name": "tiles1",
+    "name": "tiles",
     "spacing": 0,
     "tilecount": 64,
     "tileheight": 32,
@@ -162,10 +175,8 @@ module.exports = {
   "tilewidth": 32,
   "type": "map",
   "version": "1.10",
-  "width": 36
+  "width": 54
 };
-},{}],"assets/Soldier/Bullet.png":[function(require,module,exports) {
-module.exports = "/Bullet.f7380256.png";
 },{}],"assets/Soldier/Idle.png":[function(require,module,exports) {
 module.exports = "/Idle.b697d94f.png";
 },{}],"assets/Soldier/Walk.png":[function(require,module,exports) {
@@ -186,14 +197,20 @@ module.exports = "/Run.c2b93eef.png";
 module.exports = "/Attack2.93e4d0aa.png";
 },{}],"assets/ZombieWoman/Dead.png":[function(require,module,exports) {
 module.exports = "/Dead.4aec24f1.png";
-},{}],"GameFrame.js":[function(require,module,exports) {
+},{}],"assets/Background/Night/2.png":[function(require,module,exports) {
+module.exports = "/2.932723b4.png";
+},{}],"Level2.js":[function(require,module,exports) {
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _Tileset = _interopRequireDefault(require("./assets/Tiles/Tileset.png"));
+var _Bullet = _interopRequireDefault(require("./assets/Soldier/Bullet.png"));
 var _ = _interopRequireDefault(require("./assets/Background/Night/1.png"));
 var _2 = _interopRequireDefault(require("./assets/Background/Night/2.png"));
-var _Tileset = _interopRequireDefault(require("./assets/Tiles/Tileset.png"));
-var _map = _interopRequireDefault(require("./assets/TileStuff/map1.json"));
-var _Bullet = _interopRequireDefault(require("./assets/Soldier/Bullet.png"));
+var _map = _interopRequireDefault(require("./assets/TileStuff/map.json"));
 var _Idle = _interopRequireDefault(require("./assets/Soldier/Idle.png"));
 var _Walk = _interopRequireDefault(require("./assets/Soldier/Walk.png"));
 var _Run = _interopRequireDefault(require("./assets/Soldier/Run.png"));
@@ -220,61 +237,23 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-var game;
-var settings = {
-  gravity: 700,
-  soldierWalkSpeed: 100,
-  soldierRunSpeed: 330,
-  soldierOffsetY: 64,
-  soldierOffsetXRight: 43,
-  soldierOffsetXLeft: 75,
-  zombieWalkSpeed: 80,
-  zombieRunSpeed: 350,
-  zombieOffsetY: 32,
-  zombieOffsetXRight: 35,
-  zombieOffsetXLeft: 55,
-  bulletSpeed: 1,
-  restartTime: 1000
-};
-window.onload = function () {
-  var gameConfig = {
-    type: Phaser.AUTO,
-    scale: {
-      mode: Phaser.Scale.FIT,
-      autoCenter: Phaser.Scale.CENTER_BOTH,
-      width: 1152,
-      height: 672
-    },
-    pixelArt: true,
-    physics: {
-      default: "arcade",
-      arcade: {
-        debug: true,
-        gravity: {
-          y: 0
-        }
-      }
-    },
-    scene: [Level1]
-  };
-  game = new Phaser.Game(gameConfig);
-  window.focus();
-};
-var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
-  _inherits(Level1, _Phaser$Scene);
-  var _super = _createSuper(Level1);
-  function Level1() {
-    _classCallCheck(this, Level1);
-    return _super.call(this, "Level1");
+var settings;
+var config;
+var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
+  _inherits(Level2, _Phaser$Scene);
+  var _super = _createSuper(Level2);
+  function Level2() {
+    _classCallCheck(this, Level2);
+    return _super.call(this, "Level2");
   }
-  _createClass(Level1, [{
+  _createClass(Level2, [{
     key: "preload",
     value: function preload() {
       this.load.image("background1", _.default);
       this.load.image("background2", _2.default);
-      this.load.image("tiles", _Tileset.default);
+      this.load.image("tilesImage", _Tileset.default);
       this.load.image("bullet", _Bullet.default);
-      this.load.tilemapTiledJSON("map1", _map.default);
+      this.load.tilemapTiledJSON("map", _map.default);
       var soldierSize = {
         frameWidth: 128,
         frameHeight: 128
@@ -296,24 +275,27 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
     }
   }, {
     key: "create",
-    value: function create() {
+    value: function create(data) {
       var _this = this;
-      this.physics.world.setBounds(game.config.width, game.config.height);
-      this.background = this.add.image(game.config.width / 2, game.config.height / 2, "background1").setScale(2);
-      this.background = this.add.image(game.config.width / 2, game.config.height / 2, "background2").setScale(2);
+      config = data.config;
+      settings = data.settings;
+      console.log(config);
+      console.log(settings);
+      var bgWidth = 576 * 2;
+      var bgHeight = 324 * 2 - 70;
+      this.physics.world.setBounds(config.width, config.height);
+      this.add.image(config.width / 2, config.height / 2, "background1").setScale(3.1);
+      this.add.image(bgWidth, bgHeight, "background2").setScale(2);
+      this.add.image(0, bgHeight, "background2").setScale(2);
       this.map = this.make.tilemap({
-        key: "map1",
+        key: "map",
         tileWidth: 32,
         tileHeight: 32
       });
-      this.tileset = this.map.addTilesetImage("tiles1", "tiles");
-      this.layer = this.map.createLayer("layer1", this.tileset, 0, 0);
-      this.layer.setCollisionBetween(1, 63);
-      this.add.text(40, 450, " left & right arrow: move\n up arrow: jump\n down arrow: shoot\n shift + move: run", {
-        fontSize: 16,
-        color: "#BBBBBB"
-      });
-      this.soldier = this.physics.add.sprite(200, 400, "soldierIdleSheet");
+      this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
+      this.layer = this.map.createLayer("layer2", "tiles", 0, 0);
+      this.layer.setCollisionBetween(1, 48);
+      this.soldier = this.physics.add.sprite(this.getTileX(0), this.getTileY(24), "soldierIdleSheet");
       this.soldier.body.gravity.y = settings.gravity;
       this.soldier.setSize(32, 63);
       this.soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
@@ -321,6 +303,7 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
       this.soldierLocation = [0, 0];
       this.soldierDead = false;
       this.soldierDeadTimer = 0;
+      this.soldierShotTimer = 0;
       this.bullets = this.physics.add.group({
         classType: Bullet,
         runChildUpdate: true
@@ -329,8 +312,6 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
         classType: Zombie,
         runChildUpdate: true
       });
-      this.zombie1 = this.createZombie(400, 500);
-      this.zombie2 = this.createZombie(405, 500);
       this.physics.add.overlap(this.bullets, this.layer, function (bullet, tile) {
         bullet.destroy();
       }, function (bullet, tile) {
@@ -345,7 +326,6 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
         }
       });
       this.soldierZombieCollider = this.physics.add.overlap(this.soldier, this.zombies, function (soldier, zombie) {
-        console.log("Zombie killed soldier");
         _this.soldierDead = true;
         zombie.attacking = false;
         zombie.body.velocity.x = 0;
@@ -358,12 +338,12 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
       });
       this.physics.add.collider(this.soldier, this.layer, function (soldier, tile) {
         _this.soldierLocation = [tile.x, tile.y];
-        console.log(_this.soldierLocation);
+        console.log(_this.soldierLocation.toString());
       });
       this.cursors = this.input.keyboard.createCursorKeys();
       this.shift = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SHIFT);
-      this.cameras.main.setBounds(0, 0, 1152, 648);
-      this.cameras.main.setZoom(2);
+      this.cameras.main.setBounds(0, 0, config.width, config.height);
+      this.cameras.main.setZoom(3);
       this.cameras.main.startFollow(this.soldier, true, 0.05, 0.05);
       this.createSoldierAnimations();
       this.createZombieAnimations();
@@ -374,20 +354,23 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
   }, {
     key: "update",
     value: function update(time, delta) {
-      if (this.soldier.y > game.config.height || this.soldier.y < 0 || this.soldierDeadTimer > settings.restartTime) {
-        this.scene.start();
+      if (this.soldier.y > config.height || this.soldier.y < 0) {
+        this.soldierDead = true;
       }
       if (!this.soldierDead) {
-        this.soldierController();
+        this.soldierController(delta);
         this.checkSoldierLocation();
       } else {
         this.soldier.body.velocity.x *= 0.95;
         this.soldierDeadTimer += delta;
+        if (this.soldierDeadTimer > settings.restartTime) {
+          this.scene.start();
+        }
       }
     }
   }, {
     key: "soldierController",
-    value: function soldierController() {
+    value: function soldierController(delta) {
       if (this.cursors.left.isDown && this.shift.isDown && this.soldier.body.onFloor()) {
         if (this.soldier.body.velocity.x > -settings.soldierRunSpeed) {
           this.soldier.body.velocity.x -= 10;
@@ -432,21 +415,24 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
       } else if (this.soldier.body.velocity.y > 0) {
         this.soldier.anims.play("soldierFall", true);
       }
-      if (Phaser.Input.Keyboard.JustDown(this.cursors.down) && this.soldier.body.velocity.x == 0 && this.soldier.body.velocity.y == 0) {
+      if (this.cursors.down.isDown && this.soldier.body.velocity.x == 0 && this.soldier.body.velocity.y == 0 && this.soldierShotTimer > 330) {
+        this.soldierShotTimer = 0;
         this.bullet = this.bullets.get();
-        this.soldier.anims.play("soldierAttack", true);
+        this.soldier.anims.play("soldierAttack");
         if (this.bullet) {
           this.bullet.fire(this.soldier, this.soldierDirection);
         }
+      }
+      this.soldierShotTimer += delta;
+      if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
+        this.soldier.y -= 150;
       }
     }
   }, {
     key: "checkSoldierLocation",
     value: function checkSoldierLocation() {
       var string = "7,19 9,19 8,19";
-      if (string.includes(this.soldierLocation.toString()) && !this.soldierDead) {
-        this.zombie1.attack(this.soldier);
-      }
+      if (string.includes(this.soldierLocation.toString()) && !this.soldierDead) {}
     }
   }, {
     key: "createZombie",
@@ -511,7 +497,7 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
           start: 0,
           end: 3
         }),
-        frameRate: 16
+        frameRate: 12
       });
       this.anims.create({
         key: "soldierDead",
@@ -584,6 +570,563 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
         }),
         frameRate: 10
       });
+    }
+  }, {
+    key: "getTileY",
+    value: function getTileY(tileY) {
+      return (tileY - 3) * 32;
+    }
+  }, {
+    key: "getTileX",
+    value: function getTileX(tileX) {
+      return tileX * 32;
+    }
+  }]);
+  return Level2;
+}(Phaser.Scene);
+exports.default = Level2;
+var Zombie = /*#__PURE__*/function (_Phaser$Physics$Arcad) {
+  _inherits(Zombie, _Phaser$Physics$Arcad);
+  var _super2 = _createSuper(Zombie);
+  function Zombie(scene, x, y) {
+    var _this2;
+    _classCallCheck(this, Zombie);
+    _this2 = _super2.call(this, scene, x, y, "zombieIdleSheet");
+    _this2.direction = 1;
+    _this2.dead = false;
+    _this2.attacking = false;
+    return _this2;
+  }
+  _createClass(Zombie, [{
+    key: "attack",
+    value: function attack(target) {
+      this.target = target;
+      this.targetX = target.body.position.x;
+      this.attacking = true;
+    }
+  }, {
+    key: "die",
+    value: function die() {
+      var _this3 = this;
+      this.dead = true;
+      this.body.velocity.x = 0;
+      if (this.direction == 1) {
+        this.setScale(-1, 1);
+        this.setOffset(settings.zombieOffsetXLeft, settings.zombieOffsetY);
+      } else {
+        this.setScale(1, 1);
+        this.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
+      }
+      this.anims.play("zombieDead", true);
+      this.once(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "zombieDead", function () {
+        _this3.setActive(0);
+      });
+    }
+  }, {
+    key: "update",
+    value: function update() {
+      if (this.attacking && !this.dead) {
+        if (Phaser.Math.Difference(this.targetX, this.body.position.x) < 1) {
+          this.body.velocity.x = 0;
+        } else if (this.targetX < this.body.position.x) {
+          this.body.velocity.x = -settings.zombieWalkSpeed;
+        } else if (this.targetX > this.body.position.x) {
+          this.body.velocity.x = settings.zombieWalkSpeed;
+        }
+        if ((this.body.blocked.left || this.body.blocked.right) && this.body.velocity.y == 0) {
+          this.body.velocity.y = -settings.zombieWalkSpeed * 3;
+        }
+      }
+      if (this.body.velocity.y < 0) {
+        this.anims.play("zombieJump", true);
+      } else if (this.body.velocity.y > 0) {
+        this.anims.play("zombieFall", true);
+      }
+      if (this.body.velocity.x == 0 && this.anims.getName() != "zombieAttack" && !this.dead) {
+        this.anims.play("zombieIdle", true);
+      } else if (this.body.velocity.x < 0 && this.body.velocity.y == 0) {
+        this.anims.play("zombieWalk", true);
+        this.direction = -1;
+        this.setScale(-1, 1);
+        this.setOffset(settings.zombieOffsetXLeft, settings.zombieOffsetY);
+        this.zombieDirection = -1;
+      } else if (this.body.velocity.x > 0 && this.body.velocity.y == 0) {
+        this.anims.play("zombieWalk", true);
+        this.direction = 1;
+        this.setScale(1, 1);
+        this.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
+        this.zombieDirection = 1;
+      }
+      if (this.body.onFloor()) {
+        if (this.body.velocity.x < 0.1 && this.body.velocity.x > -0.1) {
+          this.body.velocity.x = 0;
+        } else {
+          this.body.velocity.x *= 0.7;
+        }
+      }
+    }
+  }]);
+  return Zombie;
+}(Phaser.Physics.Arcade.Sprite);
+var Bullet = /*#__PURE__*/function (_Phaser$Physics$Arcad2) {
+  _inherits(Bullet, _Phaser$Physics$Arcad2);
+  var _super3 = _createSuper(Bullet);
+  function Bullet(scene) {
+    var _this4;
+    _classCallCheck(this, Bullet);
+    _this4 = _super3.call(this, scene, 0, 0, "bullet");
+    _this4.hasKilled = false;
+    return _this4;
+  }
+  _createClass(Bullet, [{
+    key: "fire",
+    value: function fire(shooter, direction) {
+      if (direction == 1) {
+        this.setPosition(shooter.x + 33, shooter.y + 19);
+        this.speed = settings.bulletSpeed;
+      } else if (direction == -1) {
+        this.setPosition(shooter.x - 33, shooter.y + 19);
+        this.speed = -settings.bulletSpeed;
+      }
+      this.lifespan = 1000;
+    }
+  }, {
+    key: "preUpdate",
+    value: function preUpdate(time, delta) {
+      _get(_getPrototypeOf(Bullet.prototype), "preUpdate", this).call(this, time, delta);
+      this.lifespan -= delta;
+      this.x += this.speed * delta;
+      if (this.lifespan <= 0) {
+        this.destroy();
+      }
+    }
+  }]);
+  return Bullet;
+}(Phaser.Physics.Arcade.Sprite);
+},{"./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/2.png":"assets/Background/Night/2.png","./assets/TileStuff/map.json":"assets/TileStuff/map.json","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png"}],"GameFrame.js":[function(require,module,exports) {
+"use strict";
+
+var _Tileset = _interopRequireDefault(require("./assets/Tiles/Tileset.png"));
+var _Bullet = _interopRequireDefault(require("./assets/Soldier/Bullet.png"));
+var _ = _interopRequireDefault(require("./assets/Background/Night/1.png"));
+var _2 = _interopRequireDefault(require("./assets/Background/Night/4.png"));
+var _map = _interopRequireDefault(require("./assets/TileStuff/map.json"));
+var _Idle = _interopRequireDefault(require("./assets/Soldier/Idle.png"));
+var _Walk = _interopRequireDefault(require("./assets/Soldier/Walk.png"));
+var _Run = _interopRequireDefault(require("./assets/Soldier/Run.png"));
+var _Shot = _interopRequireDefault(require("./assets/Soldier/Shot1.png"));
+var _Dead = _interopRequireDefault(require("./assets/Soldier/Dead.png"));
+var _Idle2 = _interopRequireDefault(require("./assets/ZombieWoman/Idle.png"));
+var _Walk2 = _interopRequireDefault(require("./assets/ZombieWoman/Walk.png"));
+var _Run2 = _interopRequireDefault(require("./assets/ZombieWoman/Run.png"));
+var _Attack = _interopRequireDefault(require("./assets/ZombieWoman/Attack2.png"));
+var _Dead2 = _interopRequireDefault(require("./assets/ZombieWoman/Dead.png"));
+var _Level = _interopRequireDefault(require("./Level2"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _get() { if (typeof Reflect !== "undefined" && Reflect.get) { _get = Reflect.get.bind(); } else { _get = function _get(target, property, receiver) { var base = _superPropBase(target, property); if (!base) return; var desc = Object.getOwnPropertyDescriptor(base, property); if (desc.get) { return desc.get.call(arguments.length < 3 ? target : receiver); } return desc.value; }; } return _get.apply(this, arguments); }
+function _superPropBase(object, property) { while (!Object.prototype.hasOwnProperty.call(object, property)) { object = _getPrototypeOf(object); if (object === null) break; } return object; }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var game;
+var settings = {
+  gravity: 700,
+  soldierWalkSpeed: 100,
+  soldierRunSpeed: 330,
+  soldierOffsetY: 64,
+  soldierOffsetXRight: 43,
+  soldierOffsetXLeft: 75,
+  zombieWalkSpeed: 80,
+  zombieRunSpeed: 350,
+  zombieOffsetY: 32,
+  zombieOffsetXRight: 35,
+  zombieOffsetXLeft: 55,
+  bulletSpeed: 1.2,
+  restartTime: 1000
+};
+window.onload = function () {
+  var gameConfig = {
+    type: Phaser.AUTO,
+    scale: {
+      mode: Phaser.Scale.FIT,
+      autoCenter: Phaser.Scale.CENTER_BOTH,
+      width: 1728,
+      height: 992
+    },
+    pixelArt: true,
+    physics: {
+      default: "arcade",
+      arcade: {
+        debug: true,
+        gravity: {
+          y: 0
+        }
+      }
+    },
+    scene: [Level1, _Level.default]
+  };
+  game = new Phaser.Game(gameConfig);
+  window.focus();
+};
+var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
+  _inherits(Level1, _Phaser$Scene);
+  var _super = _createSuper(Level1);
+  function Level1() {
+    _classCallCheck(this, Level1);
+    return _super.call(this, "Level1");
+  }
+  _createClass(Level1, [{
+    key: "preload",
+    value: function preload() {
+      this.load.image("background1", _.default);
+      this.bg = this.load.image("background2", _2.default);
+      this.load.image("tilesImage", _Tileset.default);
+      this.load.image("bullet", _Bullet.default);
+      this.load.tilemapTiledJSON("map", _map.default);
+      var soldierSize = {
+        frameWidth: 128,
+        frameHeight: 128
+      };
+      var zombieSize = {
+        frameWidth: 96,
+        frameHeight: 96
+      };
+      this.load.spritesheet("soldierIdleSheet", _Idle.default, soldierSize);
+      this.load.spritesheet("soldierWalkSheet", _Walk.default, soldierSize);
+      this.load.spritesheet("soldierRunSheet", _Run.default, soldierSize);
+      this.load.spritesheet("soldierAttackSheet", _Shot.default, soldierSize);
+      this.load.spritesheet("soldierDeadSheet", _Dead.default, soldierSize);
+      this.load.spritesheet("zombieIdleSheet", _Idle2.default, zombieSize);
+      this.load.spritesheet("zombieWalkSheet", _Walk2.default, zombieSize);
+      this.load.spritesheet("zombieRunSheet", _Run2.default, zombieSize);
+      this.load.spritesheet("zombieAttackSheet", _Attack.default, zombieSize);
+      this.load.spritesheet("zombieDeadSheet", _Dead2.default, zombieSize);
+    }
+  }, {
+    key: "create",
+    value: function create() {
+      var _this = this;
+      this.data = {
+        settings: settings,
+        config: game.config
+      };
+      console.log("Level 1");
+      var bgWidth = 576 * 2;
+      var bgHeight = 324 * 2 - 70;
+      this.physics.world.setBounds(game.config.width, game.config.height);
+      this.add.image(game.config.width / 2, game.config.height / 2, "background1").setScale(3.1);
+      this.add.image(bgWidth, bgHeight, "background2").setScale(2);
+      this.add.image(0, bgHeight, "background2").setScale(2);
+      this.map = this.make.tilemap({
+        key: "map",
+        tileWidth: 32,
+        tileHeight: 32
+      });
+      this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
+      this.layer = this.map.createLayer("layer1", "tiles", 0, 0);
+      this.layer.setCollisionBetween(1, 48);
+      this.add.text(this.getTileX(1), this.getTileY(26), " left & right arrow: move\n up arrow: jump\n down arrow: shoot\n shift + move: run", {
+        fontSize: 16,
+        color: "#BBBBBB"
+      });
+      this.soldier = this.physics.add.sprite(this.getTileX(4), this.getTileY(28), "soldierIdleSheet");
+      this.soldier.body.gravity.y = settings.gravity;
+      this.soldier.setSize(32, 63);
+      this.soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+      this.soldierDirection = 1;
+      this.soldierLocation = [0, 0];
+      this.soldierDead = false;
+      this.soldierDeadTimer = 0;
+      this.soldierShotTimer = 0;
+      this.bullets = this.physics.add.group({
+        classType: Bullet,
+        runChildUpdate: true
+      });
+      this.zombies = this.physics.add.group({
+        classType: Zombie,
+        runChildUpdate: true
+      });
+      this.createZombie(this.getTileX(9), this.getTileY(28));
+      this.physics.add.overlap(this.bullets, this.layer, function (bullet, tile) {
+        bullet.destroy();
+      }, function (bullet, tile) {
+        return tile.collides;
+      });
+      this.physics.add.overlap(this.bullets, this.zombies, function (bullet, zombie) {
+        if (!_this.bullet.hasKilled) {
+          _this.bullet.hasKilled = true;
+          bullet.destroy();
+          zombie.die();
+          _this.zombies.remove(zombie);
+        }
+      });
+      this.soldierZombieCollider = this.physics.add.overlap(this.soldier, this.zombies, function (soldier, zombie) {
+        _this.soldierDead = true;
+        zombie.attacking = false;
+        zombie.body.velocity.x = 0;
+        zombie.anims.play("zombieAttack", true);
+        zombie.on(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "zombieAttack", function () {
+          zombie.anims.play("zombieIdle", true);
+        });
+        _this.soldier.anims.play("soldierDead", true);
+        _this.soldierZombieCollider.destroy();
+      });
+      this.physics.add.collider(this.soldier, this.layer, function (soldier, tile) {
+        _this.soldierLocation = [tile.x, tile.y];
+        console.log(_this.soldierLocation.toString());
+      });
+      this.cursors = this.input.keyboard.createCursorKeys();
+      this.shift = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SHIFT);
+      this.cameras.main.setBounds(0, 0, game.config.width, game.config.height);
+      this.cameras.main.setZoom(3);
+      this.cameras.main.startFollow(this.soldier, true, 0.05, 0.05);
+      this.createSoldierAnimations();
+      this.createZombieAnimations();
+      this.soldier.on(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "soldierAttack", function () {
+        _this.soldier.anims.play("soldierIdle", true);
+      });
+    }
+  }, {
+    key: "update",
+    value: function update(time, delta) {
+      if (this.soldier.y > game.config.height || this.soldier.y < 0) {
+        this.soldierDead = true;
+      }
+      if (!this.soldierDead) {
+        this.soldierController(delta);
+        this.checkSoldierLocation();
+      } else {
+        this.soldier.body.velocity.x *= 0.95;
+        this.soldierDeadTimer += delta;
+        if (this.soldierDeadTimer > settings.restartTime) {
+          this.scene.start();
+        }
+      }
+    }
+  }, {
+    key: "soldierController",
+    value: function soldierController(delta) {
+      if (this.cursors.left.isDown && this.shift.isDown && this.soldier.body.onFloor()) {
+        if (this.soldier.body.velocity.x > -settings.soldierRunSpeed) {
+          this.soldier.body.velocity.x -= 10;
+        }
+        this.soldier.anims.play("soldierRun", true);
+      } else if (this.cursors.left.isDown && this.soldier.body.velocity.x >= -settings.soldierWalkSpeed) {
+        this.soldier.body.velocity.x = -settings.soldierWalkSpeed;
+        if (this.soldier.body.onFloor()) {
+          this.soldier.anims.play("soldierWalk", true);
+        }
+      } else if (this.cursors.right.isDown && this.shift.isDown && this.soldier.body.onFloor()) {
+        if (this.soldier.body.velocity.x < settings.soldierRunSpeed) {
+          this.soldier.body.velocity.x += 10;
+        }
+        this.soldier.anims.play("soldierRun", true);
+      } else if (this.cursors.right.isDown && this.soldier.body.velocity.x <= settings.soldierWalkSpeed) {
+        this.soldier.body.velocity.x = settings.soldierWalkSpeed;
+        this.soldier.anims.play("soldierWalk", true);
+      } else if (this.soldier.body.onFloor()) {
+        if (this.soldier.body.velocity.x < 0.1 && this.soldier.body.velocity.x > -0.1) {
+          this.soldier.body.velocity.x = 0;
+        } else {
+          this.soldier.body.velocity.x *= 0.7;
+        }
+      }
+      if (this.soldier.body.velocity.x == 0 && this.soldier.anims.getName() != "soldierAttack") {
+        this.soldier.anims.play("soldierIdle", true);
+      } else if (this.soldier.body.velocity.x < 0) {
+        this.soldier.setScale(-1, 1);
+        this.soldier.setOffset(settings.soldierOffsetXLeft, settings.soldierOffsetY);
+        this.soldierDirection = -1;
+      } else if (this.soldier.body.velocity.x > 0) {
+        this.soldier.setScale(1, 1);
+        this.soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+        this.soldierDirection = 1;
+      }
+      if (this.cursors.up.isDown && this.soldier.body.onFloor()) {
+        this.soldier.body.velocity.y = -settings.soldierRunSpeed;
+      }
+      if (this.soldier.body.velocity.y < 0) {
+        this.soldier.anims.play("soldierJump", true);
+      } else if (this.soldier.body.velocity.y > 0) {
+        this.soldier.anims.play("soldierFall", true);
+      }
+      if (this.cursors.down.isDown && this.soldier.body.velocity.x == 0 && this.soldier.body.velocity.y == 0 && this.soldierShotTimer > 330) {
+        this.soldierShotTimer = 0;
+        this.bullet = this.bullets.get();
+        this.soldier.anims.play("soldierAttack");
+        if (this.bullet) {
+          this.bullet.fire(this.soldier, this.soldierDirection);
+        }
+      }
+      this.soldierShotTimer += delta;
+      if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
+        this.soldier.y -= 150;
+      }
+    }
+  }, {
+    key: "checkSoldierLocation",
+    value: function checkSoldierLocation() {
+      var string = "7,19 9,19 8,19";
+      if (this.soldierLocation.toString() == "18,27") {
+        this.scene.start("Level2", this.data);
+      }
+    }
+  }, {
+    key: "createZombie",
+    value: function createZombie(x, y) {
+      var zombie = this.zombies.get(x, y);
+      zombie.setSize(20, 64);
+      zombie.setScale(1, 1);
+      zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
+      zombie.body.gravity.y = settings.gravity;
+      this.physics.add.collider(zombie, this.layer);
+      return zombie;
+    }
+  }, {
+    key: "createSoldierAnimations",
+    value: function createSoldierAnimations() {
+      this.anims.create({
+        key: "soldierIdle",
+        frames: this.anims.generateFrameNumbers("soldierIdleSheet", {
+          start: 0,
+          end: 8
+        }),
+        frameRate: 5,
+        repeat: -1
+      });
+      this.anims.create({
+        key: "soldierWalk",
+        frames: this.anims.generateFrameNumbers("soldierWalkSheet", {
+          start: 0,
+          end: 7
+        }),
+        frameRate: 8,
+        repeat: -1
+      });
+      this.anims.create({
+        key: "soldierRun",
+        frames: this.anims.generateFrameNumbers("soldierRunSheet", {
+          start: 0,
+          end: 7
+        }),
+        frameRate: 12,
+        repeat: -1
+      });
+      this.anims.create({
+        key: "soldierJump",
+        frames: [{
+          key: "soldierRunSheet",
+          frame: 2
+        }],
+        frameRate: 10
+      });
+      this.anims.create({
+        key: "soldierFall",
+        frames: [{
+          key: "soldierRunSheet",
+          frame: 3
+        }],
+        frameRate: 10
+      });
+      this.anims.create({
+        key: "soldierAttack",
+        frames: this.anims.generateFrameNumbers("soldierAttackSheet", {
+          start: 0,
+          end: 3
+        }),
+        frameRate: 12
+      });
+      this.anims.create({
+        key: "soldierDead",
+        frames: this.anims.generateFrameNumbers("soldierDeadSheet", {
+          start: 0,
+          end: 3
+        }),
+        frameRate: 8
+      });
+    }
+  }, {
+    key: "createZombieAnimations",
+    value: function createZombieAnimations() {
+      this.anims.create({
+        key: "zombieIdle",
+        frames: this.anims.generateFrameNumbers("zombieIdleSheet", {
+          start: 0,
+          end: 4
+        }),
+        frameRate: 2,
+        repeat: -1
+      });
+      this.anims.create({
+        key: "zombieWalk",
+        frames: this.anims.generateFrameNumbers("zombieWalkSheet", {
+          start: 0,
+          end: 6
+        }),
+        frameRate: 8,
+        repeat: -1
+      });
+      this.anims.create({
+        key: "zombieRun",
+        frames: this.anims.generateFrameNumbers("zombieRunSheet", {
+          start: 0,
+          end: 6
+        }),
+        frameRate: 12,
+        repeat: -1
+      });
+      this.anims.create({
+        key: "zombieJump",
+        frames: [{
+          key: "zombieRunSheet",
+          frame: 0
+        }],
+        frameRate: 10
+      });
+      this.anims.create({
+        key: "zombieFall",
+        frames: [{
+          key: "zombieRunSheet",
+          frame: 5
+        }],
+        frameRate: 10
+      });
+      this.anims.create({
+        key: "zombieAttack",
+        frames: this.anims.generateFrameNumbers("zombieAttackSheet", {
+          start: 0,
+          end: 3
+        }),
+        frameRate: 16
+      });
+      this.anims.create({
+        key: "zombieDead",
+        frames: this.anims.generateFrameNumbers("zombieDeadSheet", {
+          start: 0,
+          end: 4
+        }),
+        frameRate: 10
+      });
+    }
+  }, {
+    key: "getTileY",
+    value: function getTileY(tileY) {
+      return (tileY - 3) * 32;
+    }
+  }, {
+    key: "getTileX",
+    value: function getTileX(tileX) {
+      return tileX * 32;
     }
   }]);
   return Level1;
@@ -706,7 +1249,7 @@ var Bullet = /*#__PURE__*/function (_Phaser$Physics$Arcad2) {
   }]);
   return Bullet;
 }(Phaser.Physics.Arcade.Sprite);
-},{"./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/2.png":"assets/Background/Night/2.png","./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/TileStuff/map1.json":"assets/TileStuff/map1.json","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./assets/Tiles/Tileset.png":"assets/Tiles/Tileset.png","./assets/Soldier/Bullet.png":"assets/Soldier/Bullet.png","./assets/Background/Night/1.png":"assets/Background/Night/1.png","./assets/Background/Night/4.png":"assets/Background/Night/4.png","./assets/TileStuff/map.json":"assets/TileStuff/map.json","./assets/Soldier/Idle.png":"assets/Soldier/Idle.png","./assets/Soldier/Walk.png":"assets/Soldier/Walk.png","./assets/Soldier/Run.png":"assets/Soldier/Run.png","./assets/Soldier/Shot1.png":"assets/Soldier/Shot1.png","./assets/Soldier/Dead.png":"assets/Soldier/Dead.png","./assets/ZombieWoman/Idle.png":"assets/ZombieWoman/Idle.png","./assets/ZombieWoman/Walk.png":"assets/ZombieWoman/Walk.png","./assets/ZombieWoman/Run.png":"assets/ZombieWoman/Run.png","./assets/ZombieWoman/Attack2.png":"assets/ZombieWoman/Attack2.png","./assets/ZombieWoman/Dead.png":"assets/ZombieWoman/Dead.png","./Level2":"Level2.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -731,7 +1274,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53236" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63185" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
