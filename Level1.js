@@ -11,12 +11,6 @@ import soldierRunUrl from "./assets/Soldier/Run.png"
 import soldierShotUrl from "./assets/Soldier/Shot1.png"
 import soldierDeadUrl from "./assets/Soldier/Dead.png"
 
-import zombieIdleUrl from "./assets/ZombieWoman/Idle.png"
-import zombieWalkUrl from "./assets/ZombieWoman/Walk.png"
-import zombieRunUrl from "./assets/ZombieWoman/Run.png"
-import zombieAttackUrl from "./assets/ZombieWoman/Attack2.png"
-import zombieDeadUrl from "./assets/ZombieWoman/Dead.png"
-
 let settings;
 let config;
 
@@ -33,26 +27,18 @@ export default class Level1 extends Phaser.Scene {
         this.load.tilemapTiledJSON("map", mapUrl);
 
         const soldierSize = {frameWidth: 128, frameHeight: 128}
-        const zombieSize = {frameWidth: 96, frameHeight: 96}
 
         this.load.spritesheet("soldierIdleSheet", soldierIdleUrl, soldierSize);
         this.load.spritesheet("soldierWalkSheet", soldierWalkUrl, soldierSize);
         this.load.spritesheet("soldierRunSheet", soldierRunUrl, soldierSize);
         this.load.spritesheet("soldierAttackSheet", soldierShotUrl, soldierSize);
         this.load.spritesheet("soldierDeadSheet", soldierDeadUrl, soldierSize);
-
-        this.load.spritesheet("zombieIdleSheet", zombieIdleUrl, zombieSize);
-        this.load.spritesheet("zombieWalkSheet", zombieWalkUrl, zombieSize);
-        this.load.spritesheet("zombieRunSheet", zombieRunUrl, zombieSize);
-        this.load.spritesheet("zombieAttackSheet", zombieAttackUrl, zombieSize);
-        this.load.spritesheet("zombieDeadSheet", zombieDeadUrl, zombieSize);
     }
 
     create(data) {
         config = data.config;
         settings = data.settings;
 
-        console.log("Level 1");
         const bgWidth = 576*2;
         const bgHeight = 324*2 - 70;
 
@@ -80,11 +66,6 @@ export default class Level1 extends Phaser.Scene {
             runChildUpdate: true
         })
 
-        this.zombies = this.physics.add.group({
-            classType: Zombie,
-            runChildUpdate: true
-        })
-
         this.physics.add.overlap(
             this.bullets,
             this.layer,
@@ -96,41 +77,11 @@ export default class Level1 extends Phaser.Scene {
             }
         );
 
-        this.physics.add.overlap(
-            this.bullets,
-            this.zombies,
-            (bullet, zombie) => {
-                if (!this.bullet.hasKilled) {
-                    this.bullet.hasKilled = true;
-                    bullet.destroy();
-                    zombie.die();
-                    this.zombies.remove(zombie);
-                }
-            },
-        );
-
-        this.soldierZombieCollider = this.physics.add.overlap(
-            this.soldier,
-            this.zombies,
-            (soldier, zombie) => {
-                this.soldierDead = true;
-                zombie.attacking = false;
-                zombie.body.velocity.x = 0;
-                zombie.anims.play("zombieAttack", true);
-                zombie.on(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "zombieAttack", () => {
-                    zombie.anims.play("zombieIdle", true);
-                })
-                this.soldier.anims.play("soldierDead", true);
-                this.soldierZombieCollider.destroy();
-            },
-        );
-
         this.physics.add.collider(
             this.soldier,
             this.layer,
             (soldier, tile) => {
                 this.soldierLocation = [tile.x, tile.y];
-                console.log(this.soldierLocation.toString());
             }
         );
 
@@ -142,7 +93,6 @@ export default class Level1 extends Phaser.Scene {
         this.cameras.main.startFollow(this.soldier, true, 0.05, 0.05);
 
         this.createSoldierAnimations();
-        this.createZombieAnimations();
 
         this.soldier.on(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "soldierAttack", () => {
             this.soldier.anims.play("soldierIdle", true);
@@ -259,17 +209,6 @@ export default class Level1 extends Phaser.Scene {
         this.soldierShotTimer = 0;
         return soldier
     }
-
-    createZombie(tileX, tileY) {
-        const x = tileX*32 + 19
-        const y = tileY*32 - 64
-        const zombie = this.zombies.get(x, y);
-        zombie.setSize(settings.zombieSizeX, settings.zombieSizeY);
-        zombie.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
-        zombie.body.gravity.y = settings.gravity;
-        this.physics.add.collider(zombie, this.layer);
-        return zombie;
-    }
     
     createSoldierAnimations() {
         this.anims.create({
@@ -310,130 +249,6 @@ export default class Level1 extends Phaser.Scene {
             frames: this.anims.generateFrameNumbers("soldierDeadSheet", {start: 0, end : 3}),
             frameRate: 8,
         })
-    }
-
-    createZombieAnimations() {
-        this.anims.create({
-            key: "zombieIdle",
-            frames: this.anims.generateFrameNumbers("zombieIdleSheet", {start: 0, end : 4}),
-            frameRate: 2,
-            repeat: -1
-        })
-        this.anims.create({
-            key: "zombieWalk",
-            frames: this.anims.generateFrameNumbers("zombieWalkSheet", {start: 0, end : 6}),
-            frameRate: 8,
-            repeat: -1
-        })
-        this.anims.create({
-            key: "zombieRun",
-            frames: this.anims.generateFrameNumbers("zombieRunSheet", {start: 0, end : 6}),
-            frameRate: 12,
-            repeat: -1
-        })
-        this.anims.create({
-            key: "zombieJump",
-            frames: [{key: "zombieRunSheet", frame: 0}],
-            frameRate: 10,
-        })
-        this.anims.create({
-            key: "zombieFall",
-            frames: [{key: "zombieRunSheet", frame: 5}],
-            frameRate: 10,
-        })
-        this.anims.create({
-            key: "zombieAttack",
-            frames: this.anims.generateFrameNumbers("zombieAttackSheet", {start: 0, end : 3}),
-            frameRate: 16,
-        })
-        this.anims.create({
-            key: "zombieDead",
-            frames: this.anims.generateFrameNumbers("zombieDeadSheet", {start: 0, end : 4}),
-            frameRate: 10,
-        })
-    }
-}
-
-class Zombie extends Phaser.Physics.Arcade.Sprite {
-    constructor (scene, x, y){
-        super(scene, x, y, "zombieIdleSheet");
-        this.direction = 1;
-        this.dead = false;
-        this.attacking = false;
-    }
-
-    attack(target) {
-        this.target = target;
-        this.targetX = target.body.position.x;
-        this.attacking = true;
-    }
-
-    die() {
-        this.dead = true;
-        this.body.velocity.x = 0;
-        if (this.direction == 1) {
-            this.setScale(-1, 1);
-            this.setOffset(settings.zombieOffsetXLeft, settings.zombieOffsetY);
-        } else {
-            this.setScale(1, 1);
-            this.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
-        }
-        this.anims.play("zombieDead", true);
-        this.once(Phaser.Animations.Events.ANIMATION_COMPLETE_KEY + "zombieDead", () => {
-            this.setActive(0);
-        })
-    }
-
-    update() {
-        if (this.attacking && !this.dead) {
-            if (Phaser.Math.Difference(this.targetX, this.body.position.x) < 1) {
-                this.body.velocity.x = 0;
-
-            }
-            else if (this.targetX < this.body.position.x) {
-                this.body.velocity.x = -settings.zombieWalkSpeed;
-            }
-            else if (this.targetX > this.body.position.x) {
-                this.body.velocity.x = settings.zombieWalkSpeed;
-            }
-    
-            if ((this.body.blocked.left || this.body.blocked.right) && this.body.velocity.y == 0) {
-                this.body.velocity.y = -settings.zombieWalkSpeed*3;
-            }
-        }
-        
-        if (this.body.velocity.y < 0) {
-            this.anims.play("zombieJump", true);
-        }
-        else if (this.body.velocity.y > 0) {
-            this.anims.play("zombieFall", true);
-        }
-
-        if (this.body.velocity.x == 0 && this.anims.getName() != "zombieAttack" && !this.dead) {
-            this.anims.play("zombieIdle", true);
-        }
-        else if (this.body.velocity.x < 0 && this.body.velocity.y == 0) {
-            this.anims.play("zombieWalk", true);
-            this.direction = -1;
-            this.setScale(-1, 1);
-            this.setOffset(settings.zombieOffsetXLeft, settings.zombieOffsetY);
-            this.zombieDirection = -1;
-        }
-        else if (this.body.velocity.x > 0 && this.body.velocity.y == 0) {
-            this.anims.play("zombieWalk", true);
-            this.direction = 1;
-            this.setScale(1, 1);
-            this.setOffset(settings.zombieOffsetXRight, settings.zombieOffsetY);
-            this.zombieDirection = 1;
-        }
-
-        if (this.body.onFloor()) {
-            if (this.body.velocity.x < 0.1 && this.body.velocity.x > -0.1) {
-                this.body.velocity.x = 0;
-            } else {
-                this.body.velocity.x *= 0.7;
-            }
-        }
     }
 }
 

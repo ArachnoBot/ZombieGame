@@ -1,6 +1,7 @@
 import Level1 from "./Level1"
 import Level2 from "./Level2"
 import Level3 from "./Level3"
+import Ending from "./Ending";
 
 let game;
 
@@ -21,7 +22,7 @@ const settings = {
     zombieOffsetXRight: 35,
     zombieOffsetXLeft: 55,
     bulletSpeed: 1.2,
-    restartTime: 1000,
+    restartTime: 2000,
 }
 
 window.onload = () => {
@@ -38,13 +39,12 @@ window.onload = () => {
         physics: {
             default: "arcade",
             arcade: {
-                debug: true,
                 gravity: {
                     y: 0
                 },
             }
         },
-        scene: [Bootloader, Level1, Level2, Level3]
+        scene: [Bootloader, Level1, Level2, Level3, Ending]
     }
     game = new Phaser.Game(gameConfig);
     window.focus();

@@ -125,7 +125,6 @@ export default class Level2 extends Phaser.Scene {
             this.layer,
             (soldier, tile) => {
                 this.soldierLocation = [tile.x, tile.y];
-                console.log(this.soldierLocation.toString());
             }
         );
 
@@ -289,6 +288,7 @@ export default class Level2 extends Phaser.Scene {
         soldier.body.gravity.y = settings.gravity;
         soldier.setSize(settings.soldierSizeX, settings.soldierSizeY);
         soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+        soldier.setCollideWorldBounds(true);
         this.soldierDirection = 1;
         this.soldierLocation = [0, 0];
         this.soldierDead = false;

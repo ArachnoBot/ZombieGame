@@ -2,7 +2,7 @@ import tilesImageUrl from "./assets/Tiles/Tileset.png"
 import bulletUrl from "./assets/Soldier/Bullet.png"
 
 import background1Url from "./assets/Background/Night/1.png"
-import background2Url from "./assets/Background/Night/2.png"
+import background2Url from "./assets/Background/Night/4.png"
 import mapUrl from "./assets/TileStuff/map.json"
 
 import soldierIdleUrl from "./assets/Soldier/Idle.png"
@@ -59,15 +59,14 @@ export default class Level3 extends Phaser.Scene {
 
         this.add.image(config.width / 2, -80, "background1").setScale(3.1);
 
-        this.add.image(bgWidth + 150, bgHeight, "background2").setScale(2);
-        this.add.image(0 + 150, bgHeight, "background2").setScale(2);
+        this.add.image(bgWidth + 0, bgHeight + 68, "background2").setScale(2);
         
         this.map = this.make.tilemap({key: "map", tileWidth: 32, tileHeight: 32});
         this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
         this.layer = this.map.createLayer("layer3", "tiles", 0, 0);
         this.layer.setCollisionBetween(1, 48);
 
-        this.soldier = this.createSoldier(0, 26);
+        this.soldier = this.createSoldier(26, 12);
 
         this.bullets = this.physics.add.group({
             classType: Bullet,
@@ -125,7 +124,6 @@ export default class Level3 extends Phaser.Scene {
             this.layer,
             (soldier, tile) => {
                 this.soldierLocation = [tile.x, tile.y];
-                console.log(this.soldierLocation.toString());
             }
         );
 
@@ -143,12 +141,33 @@ export default class Level3 extends Phaser.Scene {
             this.soldier.anims.play("soldierIdle", true);
         })
 
+        this.soldierNpc1 = this.physics.add.sprite(47*32 + 21, 7*32 - 63, "soldierIdleSheet");
+        this.soldierNpc1.setScale(-1, 1);
+        this.soldierNpc1.anims.play("soldierIdle", true);
+        this.soldierNpc2 = this.physics.add.sprite(49*32 + 21, 7*32 - 63, "soldierIdleSheet");
+        this.soldierNpc2.setScale(-1, 1);
+        this.soldierNpc2.anims.play("soldierIdle", true);
 
         this.zombieList1 = [];
         this.zombieList1.push(this.createZombie(1, 16, 1));
         this.zombieList1.push(this.createZombie(2, 16, 1));
         this.zombieList1.push(this.createZombie(3, 16, 1));
         this.zombieList1.push(this.createZombie(4, 16, 1));
+        this.zombieList1.push(this.createZombie(1, 11, 1));
+        this.zombieList1.push(this.createZombie(2, 11, 1));
+        this.zombieList1.push(this.createZombie(3, 11, 1));
+        this.zombieList1.push(this.createZombie(4, 11, 1));
+
+        this.zombieList2 = [];
+        this.zombieList2.push(this.createZombie(17, 18, 1));
+        this.zombieList2.push(this.createZombie(18, 18, 1));
+
+        this.zombieList3 = [];
+        this.zombieList3.push(this.createZombie(39, 10, -1));
+        this.zombieList3.push(this.createZombie(40, 9, -1));
+        this.zombieList3.push(this.createZombie(42, 7, -1));
+        
+
     }
 
     update(time, delta) {
@@ -241,9 +260,32 @@ export default class Level3 extends Phaser.Scene {
     }
 
     checkSoldierLocation() {
-        const trigger1 = ["34,10", "35,10", "36,10", "37,10", "38,10", "39,10"]
-        if (trigger1.includes(this.soldierLocation.toString()) && !this.soldierDead) {
-            
+        if (this.soldierDead) {
+            return;
+        }
+
+        const trigger1 = ["13,26", "15,27", "16,27", "17,27"]
+        if (trigger1.includes(this.soldierLocation.toString())) {
+            this.zombieList1.forEach(zombie => {
+                zombie.attack(this.soldier);
+            });
+        }
+
+        const trigger2 = ["33,20", "32,20", "31,20", "30,20"]
+        if (trigger2.includes(this.soldierLocation.toString())) {
+            this.zombieList2.forEach(zombie => {
+                zombie.attack(this.soldier);
+            });
+        }
+
+        if (this.soldierLocation.toString() == "28,12") {
+            this.zombieList3.forEach(zombie => {
+                zombie.attack(this.soldier);
+            });
+        }
+
+        if (this.soldierLocation.toString() == "53,7") {
+            this.scene.start("Ending", config);
         }
     }
 
@@ -254,6 +296,7 @@ export default class Level3 extends Phaser.Scene {
         soldier.body.gravity.y = settings.gravity;
         soldier.setSize(settings.soldierSizeX, settings.soldierSizeY);
         soldier.setOffset(settings.soldierOffsetXRight, settings.soldierOffsetY);
+        soldier.setCollideWorldBounds(true);
         this.soldierDirection = 1;
         this.soldierLocation = [0, 0];
         this.soldierDead = false;
