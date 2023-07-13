@@ -20,9 +20,9 @@ import zombieDeadUrl from "./assets/ZombieWoman/Dead.png"
 let settings;
 let config;
 
-export default class Level2 extends Phaser.Scene {
+export default class Level3 extends Phaser.Scene {
     constructor() {
-        super("Level2");
+        super("Level3");
     }
 
     preload() {
@@ -64,10 +64,10 @@ export default class Level2 extends Phaser.Scene {
         
         this.map = this.make.tilemap({key: "map", tileWidth: 32, tileHeight: 32});
         this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
-        this.layer = this.map.createLayer("layer2", "tiles", 0, 0);
+        this.layer = this.map.createLayer("layer3", "tiles", 0, 0);
         this.layer.setCollisionBetween(1, 48);
 
-        this.soldier = this.createSoldier(0, 10);
+        this.soldier = this.createSoldier(0, 26);
 
         this.bullets = this.physics.add.group({
             classType: Bullet,
@@ -143,24 +143,12 @@ export default class Level2 extends Phaser.Scene {
             this.soldier.anims.play("soldierIdle", true);
         })
 
+
         this.zombieList1 = [];
-        this.zombieList1.push(this.createZombie(8, 20, -1));
-        this.zombieList1.push(this.createZombie(8, 20, -1));
-        this.zombieList1.push(this.createZombie(8, 20, -1));
-        this.zombieList1.push(this.createZombie(9, 20, -1));
-        this.zombieList1.push(this.createZombie(10, 20, 1));
-        this.zombieList1.push(this.createZombie(12, 20, -1));
-        this.zombieList1.push(this.createZombie(13, 20, 1));
-        this.zombieList1.push(this.createZombie(14, 20,-1));
-
-        this.zombieList2 = [];
-        this.zombieList2.push(this.createZombie(42, 10, -1));
-        this.zombieList2.push(this.createZombie(44, 10, 1));
-
-        this.zombieList3 = [];
-        this.zombieList3.push(this.createZombie(41, 21, 1));
-        this.zombieList3.push(this.createZombie(42, 21, 1));
-        this.zombieList3.push(this.createZombie(43, 21, 1));
+        this.zombieList1.push(this.createZombie(1, 16, 1));
+        this.zombieList1.push(this.createZombie(2, 16, 1));
+        this.zombieList1.push(this.createZombie(3, 16, 1));
+        this.zombieList1.push(this.createZombie(4, 16, 1));
     }
 
     update(time, delta) {
@@ -253,32 +241,9 @@ export default class Level2 extends Phaser.Scene {
     }
 
     checkSoldierLocation() {
-        if (this.soldierDead) {
-            return;
-        }
-
-        if (this.soldierLocation.toString() == "11,20") {
-            this.zombieList1.forEach(zombie => {
-                zombie.attack(this.soldier);
-            });
-        }
-
-        const trigger2 = ["34,10", "35,10", "36,10", "37,10", "38,10", "39,10"]
-        if (trigger2.includes(this.soldierLocation.toString())) {
-            this.zombieList2.forEach(zombie => {
-                zombie.attack(this.soldier);
-            });
-        }
-
-        const trigger3 = ["31,21", "32,21", "33,21", "34,21", "35,21", "36,21"]
-        if (trigger3.includes(this.soldierLocation.toString())) {
-            this.zombieList3.forEach(zombie => {
-                zombie.attack(this.soldier);
-            });
-        }
-
-        if (this.soldierLocation.toString() == "53,10") {
-            this.scene.start("Level3", {config, settings})
+        const trigger1 = ["34,10", "35,10", "36,10", "37,10", "38,10", "39,10"]
+        if (trigger1.includes(this.soldierLocation.toString()) && !this.soldierDead) {
+            
         }
     }
 
@@ -294,7 +259,7 @@ export default class Level2 extends Phaser.Scene {
         this.soldierDead = false;
         this.soldierDeadTimer = 0;
         this.soldierShotTimer = 0;
-        return soldier
+        return soldier;
     }
 
     createZombie(tileX, tileY, direction) {

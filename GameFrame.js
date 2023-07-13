@@ -1,5 +1,6 @@
 import Level1 from "./Level1"
 import Level2 from "./Level2"
+import Level3 from "./Level3"
 
 let game;
 
@@ -43,7 +44,7 @@ window.onload = () => {
                 },
             }
         },
-        scene: [Bootloader, Level1, Level2]
+        scene: [Bootloader, Level1, Level2, Level3]
     }
     game = new Phaser.Game(gameConfig);
     window.focus();
@@ -59,6 +60,6 @@ class Bootloader extends Phaser.Scene {
             config: game.config,
             settings: settings,
         }
-        this.scene.start("Level2", this.data)
+        this.scene.start("Level3", this.data)
     }
 }

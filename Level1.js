@@ -239,7 +239,6 @@ export default class Level1 extends Phaser.Scene {
     }
 
     checkSoldierLocation() {
-        const string = "7,19 9,19 8,19"
         if (this.soldierLocation.toString() == "53,24") {
             this.scene.start("Level2", {config, settings});
         }
