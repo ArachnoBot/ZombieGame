@@ -1,2 +1,3 @@
-.cache
+#These files are created on start
+.parcel-cache
 dist
