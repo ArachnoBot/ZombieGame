@@ -182,10 +182,6 @@ export default class Level1 extends Phaser.Scene {
         }
 
         this.soldierShotTimer += delta;
-
-        if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
-            this.soldier.y -= 150;
-        }
     }
 
     checkSoldierLocation() {

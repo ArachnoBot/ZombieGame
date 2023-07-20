@@ -22,7 +22,7 @@ const settings = {
     zombieOffsetXRight: 35,
     zombieOffsetXLeft: 55,
     bulletSpeed: 1.2,
-    restartTime: 2000,
+    restartTime: 3000,
 }
 
 window.onload = () => {
@@ -60,6 +60,6 @@ class Bootloader extends Phaser.Scene {
             config: game.config,
             settings: settings,
         }
-        this.scene.start("Level3", this.data)
+        this.scene.start("Level1", this.data)
     }
 }

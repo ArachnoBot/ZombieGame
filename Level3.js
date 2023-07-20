@@ -66,7 +66,7 @@ export default class Level3 extends Phaser.Scene {
         this.layer = this.map.createLayer("layer3", "tiles", 0, 0);
         this.layer.setCollisionBetween(1, 48);
 
-        this.soldier = this.createSoldier(26, 12);
+        this.soldier = this.createSoldier(0, 26);
 
         this.bullets = this.physics.add.group({
             classType: Bullet,
@@ -253,10 +253,6 @@ export default class Level3 extends Phaser.Scene {
         }
 
         this.soldierShotTimer += delta;
-
-        if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
-            this.soldier.y -= 150;
-        }
     }
 
     checkSoldierLocation() {

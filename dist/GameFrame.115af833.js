@@ -379,9 +379,6 @@ var Level1 = /*#__PURE__*/function (_Phaser$Scene) {
         }
       }
       this.soldierShotTimer += delta;
-      if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
-        this.soldier.y -= 150;
-      }
     }
   }, {
     key: "checkSoldierLocation",
@@ -756,9 +753,6 @@ var Level2 = /*#__PURE__*/function (_Phaser$Scene) {
         }
       }
       this.soldierShotTimer += delta;
-      if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
-        this.soldier.y -= 150;
-      }
     }
   }, {
     key: "checkSoldierLocation",
@@ -1180,7 +1174,7 @@ var Level3 = /*#__PURE__*/function (_Phaser$Scene) {
       this.tileset = this.map.addTilesetImage("tiles", "tilesImage");
       this.layer = this.map.createLayer("layer3", "tiles", 0, 0);
       this.layer.setCollisionBetween(1, 48);
-      this.soldier = this.createSoldier(26, 12);
+      this.soldier = this.createSoldier(0, 26);
       this.bullets = this.physics.add.group({
         classType: Bullet,
         runChildUpdate: true
@@ -1323,9 +1317,6 @@ var Level3 = /*#__PURE__*/function (_Phaser$Scene) {
         }
       }
       this.soldierShotTimer += delta;
-      if (Phaser.Input.Keyboard.JustDown(this.cursors.space)) {
-        this.soldier.y -= 150;
-      }
     }
   }, {
     key: "checkSoldierLocation",
@@ -1731,7 +1722,7 @@ var settings = {
   zombieOffsetXRight: 35,
   zombieOffsetXLeft: 55,
   bulletSpeed: 1.2,
-  restartTime: 2000
+  restartTime: 3000
 };
 window.onload = function () {
   var gameConfig = {
@@ -1771,7 +1762,7 @@ var Bootloader = /*#__PURE__*/function (_Phaser$Scene) {
         config: game.config,
         settings: settings
       };
-      this.scene.start("Level3", this.data);
+      this.scene.start("Level1", this.data);
     }
   }]);
   return Bootloader;
@@ -1801,7 +1792,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56813" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56937" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
