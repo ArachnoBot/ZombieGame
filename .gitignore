@@ -1,3 +1,6 @@
 #These files are created on start
 .parcel-cache
 dist
+
+#The parcel install is apparently too much for codegrade to handle
+node_modules
